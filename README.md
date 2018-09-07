@@ -2,7 +2,13 @@
 
 ## Contents
 
-1. [Algorithms](#algorithms)
+1. [Data](#data)
+    1. [Bit](#bit)
+    2. [Nibble](#nibble)
+    3. [Byte](#byte)
+    4. [Word](#word)
+2. [Data Structures](#data-structures)
+3. [Algorithms](#algorithms)
     1. [Runtime Complexity Analysis](#runtime-complexity-analysis)
         1. [Asymptotic Analysis](#asymptotic-analysis)
         2. [Big-O Notation](#big-o-notation)
@@ -21,9 +27,21 @@
     9. Graphs
     10. Dynamic Programming
     11. Search Space
-2. Data
-3. Data Structures
 
+
+## Data
+
+### Nibble
+
+### Bit
+
+### Byte
+
+
+### Word
+
+
+## Data Structures
 
 ## Algorithms
 
@@ -118,7 +136,7 @@ This will often, but not always, look like **_O_(Branches<sup>depth</sup>)**, wh
 Notation |  Name | Example
 ----------|------------|---------
 **_O_(1)** | Constant | Determining if a binary number is even or odd.
-**_O_(log log _n_)** | Double Logarithmic | Number of comparisons spent finding an item using interpolation search.å
+**_O_(log log _n_)** | Double Logarithmic | Number of comparisons spent finding an item using interpolation search.
 **_O_(log _n_)** | Logarithmic | Finding an item in a sorted array with binary search.
 **_O_((log _n_)<sup>c</sup>)** | Polylogarithmic | Solving matrix chain ordering.
 **_O_(_n_<sup>c</sup>)** | Fractional Power | Searching in a k-d tree.
