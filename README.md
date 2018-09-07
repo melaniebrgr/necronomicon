@@ -5,10 +5,10 @@
 ## Contents
 
 1. Algorithms
-    1. [Runtime Complexity Analysis](#runtime-Complexity-Analysis)
-        1. [Asymptotic Analysis](#Asymptotic-Analysis)
-        2. [Big-O Notation](#Big-O-Notation)
-        3. [Orders of Common Functions](#Orders-of-Common-Functions)
+    1. [Runtime Complexity Analysis](#runtime-complexity-analysis)
+        1. [Asymptotic Analysis](#asymptotic-analysis)
+        2. [Big-O Notation](#big-o-notation)
+        3. [Orders of Common Functions](#orders-of-common-functions)
     2. Bitwise Operations
 2. Data Structures
 
