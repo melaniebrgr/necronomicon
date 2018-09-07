@@ -97,6 +97,10 @@ This will often, but not always, look like **_O_(Branches<sup>depth</sup>)**, wh
 
 *Worst Case*: If we get unlucky and the pivot is repeatedly the biggest element, in the case recursion doesn't divide the array in half and recurse over each half, it just shrinks the array by one. Degenerates to **_O_(_n_<sup>2</sup>)**.
 
+*Expected Case*: We can expect a runtime of **_O_(N log N)**
+
+----
+
 <p align="center">
     <img src="./images/Common-Functions.png" width="500" />
 </p>
