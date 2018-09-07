@@ -63,15 +63,39 @@ Constants should be dropped. An algorithm that might be described as **_O_(2_n_)
 
 ##### Recursive Runtimes
 
+```
+int f(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+
+    return f(n - 1) + f(n - 1);
+}
+```
+
+Each node has two children. Each tree will have depth _n_.  Each level has twice as many calls as the one above it.
+
+|Level|Nodes|Also...|Or
+|-|-|-|-|
+|0|1| |2<sup>0</sup>
+|1|2|2 * prev = 2|2<sup>1</sup>
+|2|4|2 * prev = 2 * 2<sup>1</sup> = 2<sup>2</sup>|2<sup>2</sup>
+|3|8|2 * prev = 2 * 2<sup>2</sup> = 2<sup>3</sup>|2<sup>3</sup>
+|4|16|2 * prev = 2 * 2<sup>3</sup> = 2<sup>4</sup>|2<sup>4</sup>
+
+2<sup>0</sup> +  2<sup>1</sup> + 2<sup>2</sup> + 2<sup>3</sup> + 2<sup>4</sup> + ... + 2<sup>_n_</sup> = 2<sup>n + 1</sup> - 1
+
+This will often, but not always, look like **_O_(Branches<sup>depth</sup>)**, where branches is the number of times each recursive call branches. In this case this simplifies to **_O_(2<sup>_n_</sup>)**.
+
 ##### Examples
 
 **Quicksort**
 
 *Definition*: Pick a random pivot, then swap elements until the left of the pivot is less than the value of the pivot, and the right of the pivot is greater than the pivot. Then we recursively sort the left and right sides using the same process.
 
-*Best Case*: If all elements are equal, quicksort will traverse the array once. This is **O(_n_)**.
+*Best Case*: If all elements are equal, quicksort will traverse the array once. This is **_O_(_n_)**.
 
-*Worst Case*: If we get unlucky and the pivot is repeatedly the biggest element, in the case recursion doesn't divide the array in half and recurse over each half, it just shrinks the array by one. Degenerates to **O(_n_<sup>2</sup>)**.
+*Worst Case*: If we get unlucky and the pivot is repeatedly the biggest element, in the case recursion doesn't divide the array in half and recurse over each half, it just shrinks the array by one. Degenerates to **_O_(_n_<sup>2</sup>)**.
 
 <p align="center">
     <img src="./images/Common-Functions.png" width="500" />
