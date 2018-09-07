@@ -40,17 +40,11 @@ A line or curve "A" that is Asymptotic to given curve "C" is called the Asymptot
 
 Big-O Notation describes the limiting behaviour of a function when the argument tends toward a particular value or infinity.
 
-Big-O characterizes functions according to their growth rates. Different functions with the same growth rate may be represented using the same notation.
+Big-O characterizes functions according to their growth rates. Different functions with the same growth rate may be represented using the same notation. It is often helpful to think about the runtime complexity of a function to determine if there's a better (more efficient) solution to the problem you're trying to solve.
 
 "O" is used because growth rate is also referred to as the order of the function.
 
-A description of a function in terms of Big-O usually only provides an upper bound on its growth rate.
-
-It is often helpful to think about the runtime complexity of a function to determine if there's a better (more efficient) solution to the problem you're trying to solve.
-
-We rarely discuss the best case of a function, because it's not very useful: We can basically take any algorithm, special-case some input, and arrive at **_O_(1)**.
-
-Most of the time, worst-case and expected are the same, but they can sometimes differ. These are the two more important concepts.
+A description of a function in terms of Big-O usually only provides an upper bound on its growth rate. We rarely discuss the best case of a function, because it's not very useful: We can basically take any algorithm, special-case some input, and arrive at **_O_(1)**. Most of the time, worst-case and expected are the same, but they can sometimes differ. These are the two more important concepts. Big-O doesn't describe a particular case, just the asymptotic bounds, and can be used to describe particular cases. It is possible for **_O_(_n_)** code to run faster than **_O_(1)** for specific inputs. **Big-O just describes the rate of increase.**
 
 ##### Examples
 
