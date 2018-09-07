@@ -6,7 +6,7 @@ This document aims to encompass everything I should need to know to be an excell
 
 ## Contents
 
-1. Algorithms
+1. [Algorithms](#algorithms)
     1. [Runtime Complexity Analysis](#runtime-complexity-analysis)
         1. [Asymptotic Analysis](#asymptotic-analysis)
         2. [Big-O Notation](#big-o-notation)
@@ -126,6 +126,6 @@ Notation |  Name | Example
 
 ##### A Note About Space Complexity
 
-Space Complexity is sometimes as important as runtime complexity, and should also be considered. Similar rules can apply, or at least the best/worst/expected cases can be considered in the Big-O terms.
+Space Complexity is sometimes as important as runtime complexity, and should also be considered. Similar rules can apply, or at least the best/worst/expected cases can be considered in Big-O terms.
 
 If we need to create an array of size _n_, this willl require **_O_(_n_)**. If we need a 2D Array of size _n_ * _n_, this will require **_O_(_n_<sup>2</sup>)** space.
