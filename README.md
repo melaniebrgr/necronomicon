@@ -2,7 +2,7 @@
 
 ## Foreword
 
-This document aims to encompass everything I should need to know to be an excellent developer. Much of this is taken (read: copied) from other locations. I'm no plagiarist, but I'm not publishing this and I forget many of the sources.
+This document aims to encompass everything I should need to know to be an excellent developer. Much of this is taken (read: copied) from other locations. I'm no plagiarist.
 
 ## Contents
 
