@@ -31,7 +31,9 @@ When something is Asymptotic it is said to be approaching a value or curve arbit
 
 A line or curve "A" that is Asymptotic to given curve "C" is called the Asymptote of "C".
 
-<img align="center" src="./images/Asymptote.jpg" width="500" />
+<p align="center">
+    <img src="./images/Asymptote.jpg" width="500" />
+</p>
 
 
 #### Big-O Notation
@@ -60,7 +62,9 @@ Most of the time, worst-case and expected are the same, but they can sometimes d
 
 *Worst Case*: If we get unlucky and the pivot is repeatedly the biggest element, in the case recursion doesn't divide the array in half and recurse over each half, it just shrinks the array by one. Degenerates to **O(_n_<sup>2</sup>)**.
 
-<img align="center" src="./images/Common-Functions.png" width="500" />
+<p align="center">
+    <img src="./images/Common-Functions.png" width="500" />
+</p>
 
 
 #### Orders of Common Functions
