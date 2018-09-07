@@ -40,11 +40,25 @@ Big-O Notation describes the limiting behaviour of a function when the argument 
 
 Big-O characterizes functions according to their growth rates. Different functions with the same growth rate may be represented using the same notation.
 
-... More about Big O here
+"O" is used because growth rate is also referred to as the order of the function.
+
+A description of a function in terms of Big-O usually only provides an upper bound on its growth rate.
 
 It is often helpful to think about the runtime complexity of a function to determine if there's a better (more efficient) solution to the problem you're trying to solve.
 
-... Examples of simple functions and their Complexity here
+We rarely discuss the best case of a function, because it's not very useful: We can basically take any algorithm, special-case some input, and arrive at **_O_(1)**.
+
+Most of the time, worst-case and expected are the same, but they can sometimes differ. These are the two more important concepts.
+
+##### Examples
+
+**Quicksort**
+
+*Definition*: Pick a random pivot, then swap elements until the left of the pivot is less than the value of the pivot, and the right of the pivot is greater than the pivot. Then we recursively sort the left and right sides using the same process.
+
+*Best Case*: If all elements are equal, quicksort will traverse the array once. This is **O(_n_)**.
+
+*Worst Case*: If we get unlucky and the pivot is repeatedly the biggest element, in the case recursion doesn't divide the array in half and recurse over each half, it just shrinks the array by one. Degenerates to **O(_n_<sup>2</sup>)**.
 
 <img src="./images/Common-Functions.png" width="500" />
 
