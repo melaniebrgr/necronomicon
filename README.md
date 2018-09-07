@@ -1,9 +1,5 @@
 # CS
 
-## Foreword
-
-This document aims to encompass everything I should need to know to be an excellent developer. Much of this is taken (read: copied) from other locations. I'm no plagiarist.
-
 ## Contents
 
 1. [Algorithms](#algorithms)
