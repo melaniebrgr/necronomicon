@@ -14,6 +14,7 @@ This document aims to encompass everything I should need to know to be an excell
             2. [Recursive Runtimes](#recursive-runtimes)
             3. [Examples](#examples)
             4. [Orders of Common Functions](#orders-of-common-functions)
+            5. [A Note About Space Complexity](#a-note-about-space-complexity)
     2. Bitwise Operations
 2. Data Structures
 
@@ -122,3 +123,9 @@ Notation |  Name | Example
 **_O_(_n_<sup>c</sup>)** | Polynomial or Algebraic | Tree-adjoining grammar parsing. Maximum matching for bipartite graphs.
 **_O_(c<sup>_n_</sup>)** | Exponential | Finding the exact solution to the Travelling Salesman problem using dynamic programming. Determining if two logical statements are equivalent using Brute-Force Search
 **_O_(_n_!)** | Factorial | Solving the Travelling Salesman problem using brute-force search. Generating all unrestricted permutations of a poset.
+
+##### A Note About Space Complexity
+
+Space Complexity is sometimes as important as runtime complexity, and should also be considered. Similar rules can apply, or at least the best/worst/expected cases can be considered in the Big-O terms.
+
+If we need to create an array of size _n_, this willl require **_O_(_n_)**. If we need a 2D Array of size _n_ * _n_, this will require **_O_(_n_<sup>2</sup>)** space.
