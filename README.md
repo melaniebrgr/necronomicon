@@ -55,11 +55,11 @@ Constants should be dropped. An algorithm that might be described as **_O_(2_n_)
 
 ##### Dropping Non-Dominant Terms
 
-**_O_(_n_<sup>2</sup> + _n_)** = **_O_(_n_<sup>2</sup>)**
-
-**_O_(_n_ + log _n_)** = **_O_(_n_)**
-
-**_O_(5 * 2<sup>_n_</sup> + 1000_n_<sup>100</sup>)** = **_O_(2<sup>_n_</sup>)**
+||||
+-----|-----|-----|
+**_O_(_n_<sup>2</sup> + _n_)**| = |**_O_(_n_<sup>2</sup>)**
+|**_O_(_n_ + log _n_)**| = |**_O_(_n_)**
+**_O_(5 * 2<sup>_n_</sup> + (1000 * _n_<sup>100</sup>))**| = |**_O_(2<sup>_n_</sup>)**
 
 ##### Recursive Runtimes
 
