@@ -53,10 +53,12 @@ A description of a function in terms of Big-O usually only provides an upper bou
 
 Constants should be dropped. An algorithm that might be described as **_O_(2_n_)** is actually just **_O_(n)**. Again, specifics are often not important: Big-O simply allows us to express how a runtime scales.
 
-##### Dropping Non-Dominant Terms**
+##### Dropping Non-Dominant Terms
 
 **_O_(_n_<sup>2</sup> + _n_)** = **_O_(_n_<sup>2</sup>)**
+
 **_O_(_n_ + log _n_)** = **_O_(_n_)**
+
 **_O_(5 * 2<sup>_n_</sup> + 1000_n_<sup>100</sup>)** = **_O_(2<sup>_n_</sup>)**
 
 ##### Recursive Runtimes
