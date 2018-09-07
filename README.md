@@ -31,7 +31,7 @@ When something is Asymptotic it is said to be approaching a value or curve arbit
 
 A line or curve "A" that is Asymptotic to given curve "C" is called the Asymptote of "C".
 
-![Asymptote](./images/Asymptote.jpg)
+<img src="./images/Asymptote.jpg" width="500" />
 
 
 #### Big-O Notation
@@ -46,7 +46,7 @@ It is often helpful to think about the runtime complexity of a function to deter
 
 ... Examples of simple functions and their Complexity here
 
-![Common Functions](./images/Common-Functions.png)
+<img src="./images/Common-Functions.png" width="500" />
 
 
 #### Orders of Common Functions
