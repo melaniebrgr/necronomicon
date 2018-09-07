@@ -16,7 +16,17 @@ This document aims to encompass everything I should need to know to be an excell
             4. [Orders of Common Functions](#orders-of-common-functions)
             5. [A Note About Space Complexity](#a-note-about-space-complexity)
     2. Bitwise Operations
-2. Data Structures
+    3. Lists, Arrays, Stacks
+    4. Trees
+    5. Sorting and Searching
+    6. Pattern Matching and Parsing
+    7. Hashing
+    8. Sets and Disjoint Sets
+    9. Graphs
+    10. Dynamic Programming
+    11. Search Space
+2. Data
+3. Data Structures
 
 
 ## Algorithms
