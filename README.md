@@ -10,7 +10,10 @@ This document aims to encompass everything I should need to know to be an excell
     1. [Runtime Complexity Analysis](#runtime-complexity-analysis)
         1. [Asymptotic Analysis](#asymptotic-analysis)
         2. [Big-O Notation](#big-o-notation)
-        3. [Orders of Common Functions](#orders-of-common-functions)
+            1. [Dropping Non-Dominant Terms](#dropping-non-dominant-terms)
+            2. [Recursive Runtimes](#recursive-runtimes)
+            3. [Examples](#examples)
+            4. [Orders of Common Functions](#orders-of-common-functions)
     2. Bitwise Operations
 2. Data Structures
 
@@ -48,6 +51,16 @@ Big-O characterizes functions according to their growth rates. Different functio
 
 A description of a function in terms of Big-O usually only provides an upper bound on its growth rate. We rarely discuss the best case of a function, because it's not very useful: We can basically take any algorithm, special-case some input, and arrive at **_O_(1)**. Most of the time, worst-case and expected are the same, but they can sometimes differ. These are the two more important concepts. Big-O doesn't describe a particular case, just the asymptotic bounds, and can be used to describe particular cases. It is possible for **_O_(_n_)** code to run faster than **_O_(1)** for specific inputs. **Big-O just describes the rate of increase.**
 
+Constants should be dropped. An algorithm that might be described as **_O_(2_n_)** is actually just **_O_(n)**. Again, specifics are often not important: Big-O simply allows us to express how a runtime scales.
+
+##### Dropping Non-Dominant Terms**
+
+**_O_(_n_<sup>2</sup> + _n_)** = **_O_(_n_<sup>2</sup>)**
+**_O_(_n_ + log _n_)** = **_O_(_n_)**
+**_O_(5 * 2<sup>_n_</sup> + 1000_n_<sup>100</sup>)** = **_O_(2<sup>_n_</sup>)**
+
+##### Recursive Runtimes
+
 ##### Examples
 
 **Quicksort**
@@ -63,7 +76,7 @@ A description of a function in terms of Big-O usually only provides an upper bou
 </p>
 
 
-#### Orders of Common Functions
+##### Orders of Common Functions
 
 Notation |  Name | Example
 ----------|------------|---------
